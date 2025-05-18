@@ -1,7 +1,7 @@
 import DropDown from "../forms/drop-down";
 
 type Props = {
-  onSelect: (val: string) => void;
+  onSelect?: (val: string) => void;
 };
 
 export default function NumberInput({ onSelect }: Props) {
@@ -17,7 +17,9 @@ export default function NumberInput({ onSelect }: Props) {
   return (
     <div>             
       <DropDown
-        onSelectHandler={onSelect}
+        {
+          ...(onSelect && { onSelectHandler: onSelect })
+        }
         options={numericOptions}
         defaultOption="-"
       />

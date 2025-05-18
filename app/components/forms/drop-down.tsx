@@ -8,13 +8,17 @@ type Option = {
 type Props = {
   defaultOption?: string;
   disabled?: boolean;
-  onSelectHandler: (value: string) => void;
+  onSelectHandler?: (value: string) => void;
   options: Option[];
 };
 
 export default function DropDown({ defaultOption, disabled, onSelectHandler, options }: Props) {
   return (
-	  <Select.Root defaultValue={defaultOption} onValueChange={onSelectHandler} disabled={disabled}>
+	  <Select.Root
+      defaultValue={defaultOption}
+      onValueChange={onSelectHandler}
+      disabled={disabled}
+    >
 		  <Select.Trigger className={"w-16 border rounded " + (disabled ? 'border-gray-300 text-gray-300 hover:cursor-not-allowed ' : 'hover:cursor-pointer ')}>
 			  <Select.Value />
 		  </Select.Trigger>
