@@ -46,14 +46,6 @@ export default function Guess() {
     })
   };
 
-  useEffect(() => {
-    console.log(responses)
-  }, [responses])
-
-  useEffect(() => {
-    console.log(triangle, square, circle)
-  }, [triangle, square, circle])
-
   const canValidate = Boolean(!!triangle && !!square && !!circle);
   const canUpdateResponse = (key: ResponseKey): boolean => {
     return canValidate && (Object.keys(responses).length < 3 || Boolean(responses[key]));
