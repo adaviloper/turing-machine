@@ -8,11 +8,9 @@ export default function Deduction({ value }: Props) {
   const [evaluation, setEvaluation] = useState(`${value}`)
   const [step, setStep] = useState(0);
   const onClick = () => {
-    if (step % 3 === 0) {
+    if (step % 2 === 0) {
       setEvaluation('X');
-    } else if (step % 3 === 1) {
-      setEvaluation('O');
-    } else if (step % 3 === 2) {
+    } else if (step % 2 === 1) {
       setEvaluation(`${value}`)
     } else {
       setStep(0);

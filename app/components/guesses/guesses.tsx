@@ -17,6 +17,7 @@ export function Guesses() {
               <img src="https://turingmachine.info/static/media/ico_purplecircle.0eb3434d30e2005802ee.svg" />
             </div>
           </div>
+
           <div className="flex flex-6 justify-around">
             <div className="text-center">A</div>
             <div className="text-center">B</div>

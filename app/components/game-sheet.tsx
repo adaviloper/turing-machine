@@ -1,7 +1,7 @@
 import Deductions from "./deductions";
 import GameInfo from "./game-info"
 import { Guesses } from "./guesses/guesses"
-import KnownData from "./known-data";
+import KnownData from "./criteria/known-data";
 
 export function GameSheet() {
   return (
