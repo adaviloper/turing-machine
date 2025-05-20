@@ -16,19 +16,19 @@ export default function Criterion23() {
           <>
             <div className="flex flex-col gap-6">
               <div>
-                <CriteriaExample id="criterion-23-a">
+                <CriteriaExample>
                   <Triangle /> + <Square /> + <Circle /> &lt; 6
                 </CriteriaExample>
               </div>
 
               <div>
-                <CriteriaExample id="criterion-23-b">
+                <CriteriaExample>
                   <Triangle /> + <Square /> + <Circle /> = 6
                 </CriteriaExample>
               </div>
 
               <div>
-                <CriteriaExample id="criterion-23-c">
+                <CriteriaExample>
                   <Triangle /> + <Square /> + <Circle /> &gt; 6
                 </CriteriaExample>
               </div>

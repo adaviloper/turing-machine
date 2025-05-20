@@ -15,19 +15,19 @@ export default function Criterion32() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-32-a" >
+              <CriteriaExample>
                 <Triangle /> &gt; 3
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-32-b" >
+              <CriteriaExample>
                 <Square /> &gt; 3
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-32-c" >
+              <CriteriaExample>
                 <Circle /> &gt; 3
               </CriteriaExample>
             </div>

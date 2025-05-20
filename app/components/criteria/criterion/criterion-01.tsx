@@ -12,13 +12,13 @@ export default function Criterion01() {
       body={
         <>
         <div>
-          <CriteriaExample id="criterion-01-a">
+          <CriteriaExample>
             <Triangle /> = 1
           </CriteriaExample>
         </div>
 
         <div>
-          <CriteriaExample id="criterion-01-b">
+          <CriteriaExample>
             <Triangle /> &gt; 1
           </CriteriaExample>
         </div>

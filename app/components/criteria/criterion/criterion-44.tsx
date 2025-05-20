@@ -15,7 +15,7 @@ export default function Criterion44() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-44-a">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Square />
@@ -29,7 +29,7 @@ export default function Criterion44() {
                 </div>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-44-b">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Square />
@@ -45,7 +45,7 @@ export default function Criterion44() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-44-c">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Square />
@@ -59,7 +59,7 @@ export default function Criterion44() {
                 </div>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-44-d">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Square />
@@ -75,7 +75,7 @@ export default function Criterion44() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-44-e">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Square />
@@ -89,7 +89,7 @@ export default function Criterion44() {
                 </div>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-44-f">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Square />

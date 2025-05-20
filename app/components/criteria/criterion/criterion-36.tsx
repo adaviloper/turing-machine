@@ -15,7 +15,7 @@ export default function Criterion36() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-36-a">
+              <CriteriaExample>
                 <div className="gap-4 items-center">
                   <div>
                     <Triangle /> + <Square /> + <Circle />
@@ -28,7 +28,7 @@ export default function Criterion36() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-36-b">
+              <CriteriaExample>
                 <div className="gap-4 items-center">
                   <div>
                     <Triangle /> + <Square /> + <Circle />
@@ -41,7 +41,7 @@ export default function Criterion36() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-36-c">
+              <CriteriaExample>
                 <div className="gap-4 items-center">
                   <div>
                     <Triangle /> + <Square /> + <Circle />

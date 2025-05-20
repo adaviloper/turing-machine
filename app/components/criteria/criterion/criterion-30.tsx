@@ -15,19 +15,19 @@ export default function Criterion30() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-30-a" >
+              <CriteriaExample>
                 <Triangle /> = 4
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-30-b" >
+              <CriteriaExample>
                 <Square /> = 4
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-30-c" >
+              <CriteriaExample>
                 <Circle /> = 4
               </CriteriaExample>
             </div>

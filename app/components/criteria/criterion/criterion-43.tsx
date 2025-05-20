@@ -15,7 +15,7 @@ export default function Criterion43() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-43-a">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />
@@ -29,7 +29,7 @@ export default function Criterion43() {
                 </div>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-43-b">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />
@@ -45,7 +45,7 @@ export default function Criterion43() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-43-c">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />
@@ -59,7 +59,7 @@ export default function Criterion43() {
                 </div>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-43-d">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />
@@ -75,7 +75,7 @@ export default function Criterion43() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-43-e">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />
@@ -89,7 +89,7 @@ export default function Criterion43() {
                 </div>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-43-f">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />

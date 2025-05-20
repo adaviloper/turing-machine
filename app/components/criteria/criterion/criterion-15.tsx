@@ -15,7 +15,7 @@ export default function Criterion15() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-15-a">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />
@@ -36,7 +36,7 @@ export default function Criterion15() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-15-b">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Square />
@@ -57,7 +57,7 @@ export default function Criterion15() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-15-c">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Circle />

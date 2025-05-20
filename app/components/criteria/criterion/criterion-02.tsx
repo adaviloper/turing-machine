@@ -13,19 +13,19 @@ export default function Criterion02() {
       body={
         <>
           <div>
-            <CriteriaExample id="criterion-02-a">
+            <CriteriaExample>
               <Triangle /> &lt; 3
             </CriteriaExample>
           </div>
 
           <div>
-            <CriteriaExample id="criterion-02-b">
+            <CriteriaExample>
               <Triangle /> = 3
             </CriteriaExample>
           </div>
 
           <div>
-            <CriteriaExample id="criterion-02-c">
+            <CriteriaExample>
               <Triangle /> &gt; 3
             </CriteriaExample>
           </div>

@@ -12,7 +12,7 @@ export default function Criterion21() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-21-a">
+              <CriteriaExample>
                 <p>
                   No pairs
                 </p>
@@ -24,7 +24,7 @@ export default function Criterion21() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-21-b">
+              <CriteriaExample>
                 <p>
                   A pair
                 </p>

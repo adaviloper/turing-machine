@@ -15,31 +15,31 @@ export default function Criterion33() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-33-a" >
+              <CriteriaExample>
                 <Triangle /> is even
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-33-b" >
+              <CriteriaExample>
                 <Triangle /> is odd
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-33-c" >
+              <CriteriaExample>
                 <Square /> is even
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-33-d" >
+              <CriteriaExample>
                 <Square /> is odd
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-33-e" >
+              <CriteriaExample>
                 <Circle /> is even
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-33-f" >
+              <CriteriaExample>
                 <Circle /> is odd
               </CriteriaExample>
             </div>

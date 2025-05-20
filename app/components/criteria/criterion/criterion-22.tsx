@@ -12,7 +12,7 @@ export default function Criterion22() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-22-a">
+              <CriteriaExample>
                 <p>
                   Ascending order
                 </p>
@@ -24,7 +24,7 @@ export default function Criterion22() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-22-b">
+              <CriteriaExample>
                 <p>
                   Descending order
                 </p>
@@ -36,7 +36,7 @@ export default function Criterion22() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-22-c">
+              <CriteriaExample>
                 <p>
                   No order
                 </p>

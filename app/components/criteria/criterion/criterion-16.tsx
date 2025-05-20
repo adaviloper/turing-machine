@@ -12,13 +12,13 @@ export default function Criterion16() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-16-a">
+              <CriteriaExample>
                 Even &gt; Odd
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-16-b">
+              <CriteriaExample>
                 Even &lt; Odd
               </CriteriaExample>
             </div>

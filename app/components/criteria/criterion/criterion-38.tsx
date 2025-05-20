@@ -15,7 +15,7 @@ export default function Criterion38() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-38-a">
+              <CriteriaExample>
                 <div className="gap-4 items-center">
                   <div>
                     <Triangle /> + <Square /> = 6
@@ -25,7 +25,7 @@ export default function Criterion38() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-38-b">
+              <CriteriaExample>
                 <div className="gap-4 items-center">
                   <div>
                     <Triangle /> + <Circle /> = 6
@@ -35,7 +35,7 @@ export default function Criterion38() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-38-c">
+              <CriteriaExample>
                 <div className="gap-4 items-center">
                   <div>
                     <Square /> + <Circle /> = 6

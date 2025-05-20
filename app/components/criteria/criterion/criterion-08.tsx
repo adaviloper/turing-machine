@@ -12,7 +12,7 @@ export default function Criterion08() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-17-a">
+              <CriteriaExample>
                 <p>
                   Zero 1s
                 </p>
@@ -23,7 +23,7 @@ export default function Criterion08() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-17-b">
+              <CriteriaExample>
                 <p>
                   One 1
                 </p>
@@ -34,7 +34,7 @@ export default function Criterion08() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-17-c">
+              <CriteriaExample>
                 <p>
                   Two 1s
                 </p>
@@ -45,7 +45,7 @@ export default function Criterion08() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-17-d">
+              <CriteriaExample>
                 <p>
                   Three 1s
                 </p>

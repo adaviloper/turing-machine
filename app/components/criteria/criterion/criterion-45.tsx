@@ -12,13 +12,13 @@ export default function Criterion45() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-45-a">
+              <CriteriaExample>
                 <p>
                   232 Zero 1s
                 </p>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-45-b">
+              <CriteriaExample>
                 <p>
                   514 Zero 3s
                 </p>
@@ -26,13 +26,13 @@ export default function Criterion45() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-45-c">
+              <CriteriaExample>
                 <p>
                   33<u>1</u> One 1
                 </p>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-45-d">
+              <CriteriaExample>
                 <p>
                   <u>3</u>51 One 3
                 </p>
@@ -40,13 +40,13 @@ export default function Criterion45() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-45-e">
+              <CriteriaExample>
                 <p>
                   <u>1</u>5<u>1</u> Two 1s
                 </p>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-45-f">
+              <CriteriaExample>
                 <p>
                   5<u>33</u> Two 3s
                 </p>

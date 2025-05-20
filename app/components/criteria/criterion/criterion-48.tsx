@@ -15,7 +15,7 @@ export default function Criterion48() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-48-a">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />
@@ -29,7 +29,7 @@ export default function Criterion48() {
                 </div>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-48-b">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />
@@ -43,7 +43,7 @@ export default function Criterion48() {
                 </div>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-48-c">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />
@@ -59,7 +59,7 @@ export default function Criterion48() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-48-d">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />
@@ -73,7 +73,7 @@ export default function Criterion48() {
                 </div>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-48-e">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />
@@ -87,7 +87,7 @@ export default function Criterion48() {
                 </div>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-48-f">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Triangle />
@@ -103,7 +103,7 @@ export default function Criterion48() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-48-g">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Square />
@@ -117,7 +117,7 @@ export default function Criterion48() {
                 </div>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-48-h">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Square />
@@ -131,7 +131,7 @@ export default function Criterion48() {
                 </div>
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-48-i">
+              <CriteriaExample>
                 <div className="flex gap-4 items-center">
                   <div>
                     <Square />

@@ -12,7 +12,7 @@ export default function Criterion17() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-17-a">
+              <CriteriaExample>
                 <p>
                   Zero even numbers
                 </p>
@@ -23,7 +23,7 @@ export default function Criterion17() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-17-b">
+              <CriteriaExample>
                 <p>
                   One even number
                 </p>
@@ -34,7 +34,7 @@ export default function Criterion17() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-17-c">
+              <CriteriaExample>
                 <p>
                   Two even numbers
                 </p>
@@ -45,7 +45,7 @@ export default function Criterion17() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-17-c">
+              <CriteriaExample>
                 <p>
                   Three even numbers
                 </p>

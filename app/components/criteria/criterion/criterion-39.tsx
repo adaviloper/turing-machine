@@ -15,31 +15,31 @@ export default function Criterion39() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-39-a" >
+              <CriteriaExample>
                 <Triangle /> is = 1
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-39-b" >
+              <CriteriaExample>
                 <Triangle /> is &gt; 1
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-39-c" >
+              <CriteriaExample>
                 <Square /> is = 1
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-39-d" >
+              <CriteriaExample>
                 <Square /> is &gt; 1
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-39-e" >
+              <CriteriaExample>
                 <Circle /> is = 1
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-39-f" >
+              <CriteriaExample>
                 <Circle /> is &gt; 1
               </CriteriaExample>
             </div>

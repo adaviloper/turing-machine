@@ -12,7 +12,7 @@ export default function Criterion24() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-24-a">
+              <CriteriaExample>
                 <p>
                   3 numbers in ascending order
                 </p>
@@ -24,7 +24,7 @@ export default function Criterion24() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-24-b">
+              <CriteriaExample>
                 <p>
                   2 numbers in ascending order
                 </p>
@@ -36,7 +36,7 @@ export default function Criterion24() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-24-c">
+              <CriteriaExample>
                 <p>
                   No numbers in ascending order
                 </p>

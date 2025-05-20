@@ -12,7 +12,7 @@ export default function Criterion20() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-20-a">
+              <CriteriaExample>
                 <p>
                   A triple number
                 </p>
@@ -24,7 +24,7 @@ export default function Criterion20() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-20-b">
+              <CriteriaExample>
                 <p>
                   A double number
                 </p>
@@ -36,7 +36,7 @@ export default function Criterion20() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-20-c">
+              <CriteriaExample>
                 <p>
                   No repetition
                 </p>

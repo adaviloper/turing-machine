@@ -14,19 +14,19 @@ export default function Criterion11() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-11-a">
+              <CriteriaExample>
                 <Triangle /> &lt; <Square />
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-11-b">
+              <CriteriaExample>
                 <Triangle /> = <Square />
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-11-c">
+              <CriteriaExample>
                 <Triangle /> &gt; <Square />
               </CriteriaExample>
             </div>

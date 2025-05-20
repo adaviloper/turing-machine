@@ -13,13 +13,13 @@ export default function Criterion05() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-05-a">
+              <CriteriaExample>
                 <Triangle /> is even
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-05-b">
+              <CriteriaExample>
                 <Triangle /> is odd
               </CriteriaExample>
             </div>

@@ -12,7 +12,7 @@ export default function Criterion10() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-10-a">
+              <CriteriaExample>
                 <p>
                   Zero 4s
                 </p>
@@ -22,7 +22,7 @@ export default function Criterion10() {
               </CriteriaExample>
             </div>
             <div>
-              <CriteriaExample id="criterion-10-b">
+              <CriteriaExample>
                 <p>
                   One 4
                 </p>
@@ -32,7 +32,7 @@ export default function Criterion10() {
               </CriteriaExample>
             </div>
             <div>
-              <CriteriaExample id="criterion-10-c">
+              <CriteriaExample>
                 <p>
                   Two 4s
                 </p>
@@ -42,7 +42,7 @@ export default function Criterion10() {
               </CriteriaExample>
             </div>
             <div>
-              <CriteriaExample id="criterion-10-d">
+              <CriteriaExample>
                 <p>
                   Three 4s
                 </p>

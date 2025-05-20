@@ -15,43 +15,43 @@ export default function Criterion40() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-40-a" >
+              <CriteriaExample>
                 <Triangle /> is &lt; 3
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-40-b" >
+              <CriteriaExample>
                 <Triangle /> is = 3
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-40-c" >
+              <CriteriaExample>
                 <Triangle /> is &gt; 3
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-40-d" >
+              <CriteriaExample>
                 <Square /> is &lt; 3
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-40-e" >
+              <CriteriaExample>
                 <Triangle /> is = 3
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-40-f" >
+              <CriteriaExample>
                 <Square /> is &gt; 3
               </CriteriaExample>
             </div>
 
             <div>
-              <CriteriaExample id="criterion-40-g" >
+              <CriteriaExample>
                 <Circle /> is &lt; 3
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-40-h" >
+              <CriteriaExample>
                 <Triangle /> is = 3
               </CriteriaExample>
 
-              <CriteriaExample id="criterion-40-i" >
+              <CriteriaExample>
                 <Circle /> is &gt; 3
               </CriteriaExample>
             </div>

@@ -12,7 +12,7 @@ export default function Criterion25() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-25-a">
+              <CriteriaExample>
                 <p>
                   No sequence of numbers in ascending or descending order
                 </p>
@@ -24,7 +24,7 @@ export default function Criterion25() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-25-b">
+              <CriteriaExample>
                 <p>
                   2 numbers in ascending or descending order
                 </p>
@@ -36,7 +36,7 @@ export default function Criterion25() {
             </div>
 
             <div>
-              <CriteriaExample id="criterion-25-c">
+              <CriteriaExample>
                 <p>
                   3 numbers in ascending or descending order
                 </p>

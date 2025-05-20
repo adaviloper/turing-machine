@@ -13,17 +13,17 @@ export default function Criterion04() {
         body={
           <>
             <div>
-              <CriteriaExample id="criterion-04-a">
+              <CriteriaExample>
                 <Square /> &lt; 4
               </CriteriaExample>
             </div>
             <div>
-              <CriteriaExample id="criterion-04-b">
+              <CriteriaExample>
                 <Square /> = 4
               </CriteriaExample>
             </div>
             <div>
-              <CriteriaExample id="criterion-04-c">
+              <CriteriaExample>
                 <Square /> &gt; 4
               </CriteriaExample>
             </div>
