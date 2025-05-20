@@ -1,7 +1,6 @@
+import React from 'react';
 import Square from "~/components/icons/square";
-import CriterionCheckBox from "~/components/forms/CriterionCheckBox";
 import Criterion from "../criterion";
-import CriteriaBody from "../criteria-body";
 import CriteriaExample from "../criteria-example";
 
 export default function Criterion03() {

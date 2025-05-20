@@ -1,3 +1,4 @@
+import React from 'react';
 import Deductions from "./deductions";
 import GameInfo from "./game-info"
 import { Guesses } from "./guesses/guesses"

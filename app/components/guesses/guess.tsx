@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useState } from "react";
 import GuessSubmission from "./guess-submission";
 import NumberInput from "./NumberInput";
 import type { Nullable } from "~/utils/types";

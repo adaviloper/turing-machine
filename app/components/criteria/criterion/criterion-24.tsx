@@ -1,4 +1,4 @@
-import CriterionCheckBox from "~/components/forms/CriterionCheckBox";
+import React from 'react';
 import Criterion from "../criterion";
 import CriteriaExample from "../criteria-example";
 

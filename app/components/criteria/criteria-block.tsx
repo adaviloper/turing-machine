@@ -5,7 +5,7 @@ import React, { Suspense, useState } from 'react';
 export default function CriteriaBlock() {
   const [criterion, setCriterion] = useState('none');
 
-  const selectCriterion = (e: any) => {
+  const selectCriterion = (e: string) => {
     setCriterion(e);
   };
 

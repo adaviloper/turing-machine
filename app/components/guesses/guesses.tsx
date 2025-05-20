@@ -1,3 +1,4 @@
+import React from "react";
 import Guess from "./guess";
 
 export function Guesses() {

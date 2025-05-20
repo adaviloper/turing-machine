@@ -1,9 +1,7 @@
+import React from 'react';
 import { type PropsWithChildren } from "react";
 
-type Props = {
-};
-
-export default function CriteriaBody({ children }: PropsWithChildren<Props>) {
+export default function CriteriaBody({ children }: PropsWithChildren) {
   return (
       <div className="flex justify-around pt-6">
         {children}

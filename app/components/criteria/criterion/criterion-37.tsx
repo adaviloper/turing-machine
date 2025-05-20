@@ -1,3 +1,4 @@
+import React from 'react';
 import Square from "~/components/icons/square";
 import Criterion from "../criterion";
 import Circle from "~/components/icons/circle";

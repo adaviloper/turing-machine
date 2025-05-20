@@ -1,3 +1,4 @@
+import React from 'react';
 import { GameSheet } from "./game-sheet";
 import logoDark from "../images/logo.png";
 import logoLight from "../images/logo.png";

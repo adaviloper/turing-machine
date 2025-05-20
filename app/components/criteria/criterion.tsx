@@ -1,3 +1,4 @@
+import React from 'react';
 import { type PropsWithChildren, type ReactNode } from "react";
 import CriteriaBody from "./criteria-body";
 

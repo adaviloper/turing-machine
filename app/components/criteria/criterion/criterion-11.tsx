@@ -1,3 +1,4 @@
+import React from 'react';
 import Triangle from "~/components/icons/triangle";
 import Criterion from "../criterion";
 import Square from "~/components/icons/square";

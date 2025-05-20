@@ -1,3 +1,4 @@
+import React from 'react';
 import CriteriaExample from "../criteria-example";
 import Criterion from "../criterion";
 

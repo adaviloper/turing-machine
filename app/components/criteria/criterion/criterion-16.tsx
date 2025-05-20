@@ -1,6 +1,6 @@
+import React from 'react';
 import CriteriaExample from "../criteria-example";
 import Criterion from "../criterion";
-import CriterionCheckBox from "~/components/forms/CriterionCheckBox";
 
 export default function Criterion16() {
   return (

@@ -1,5 +1,5 @@
+import React from 'react';
 import Triangle from "~/components/icons/triangle";
-import CriterionCheckBox from "~/components/forms/CriterionCheckBox";
 import Criterion from "../criterion";
 import CriteriaExample from "../criteria-example";
 

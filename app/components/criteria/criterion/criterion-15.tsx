@@ -1,3 +1,4 @@
+import React from 'react';
 import Square from "~/components/icons/square";
 import Criterion from "../criterion";
 import Circle from "~/components/icons/circle";
@@ -9,7 +10,7 @@ export default function Criterion15() {
     <div>
       <Criterion
         header={
-          <h2>This verifier verifies... which colour's number is smaller than either of the others</h2>
+          <h2>This verifier verifies... which colour&apos;s number is smaller than either of the others</h2>
         }
         body={
           <>

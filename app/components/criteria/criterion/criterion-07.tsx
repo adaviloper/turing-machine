@@ -1,3 +1,4 @@
+import React from 'react';
 import Circle from "~/components/icons/circle";
 import Criterion from "../criterion";
 import CriteriaExample from "../criteria-example";
