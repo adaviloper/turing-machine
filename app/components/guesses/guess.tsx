@@ -54,7 +54,7 @@ export default function Guess() {
   const criteriaList: ResponseKey[] = ['A', 'B', 'C', 'D', 'E', 'F'];
 
   return (
-    <div className="rounded flex gap-16">
+    <div className="rounded flex">
       <div className="flex justify-between flex-1 justify-around">
         <NumberInput onSelect={(val: string) => handleDigitSelect('triangle', val)} />
 

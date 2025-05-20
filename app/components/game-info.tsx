@@ -2,8 +2,8 @@ import { Form } from "radix-ui"
 
 export default function GameInfo() {
   return (
-    <div className="game-info border-1 rounded">
-      <Form.Root>
+    <div className="game-info rounded-xl p-4 bg-green-100 mb-8">
+      <Form.Root className="mb-4">
         <Form.Field name="username">
           <Form.Label>Name</Form.Label>
 

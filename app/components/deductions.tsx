@@ -3,8 +3,8 @@ import NumberInput from "./guesses/NumberInput";
 
 export default function Deductions() {
   return (
-    <div className="deduced-information border-1 rounded">
-      <div className="max-w-7xl w-full space-y-6 px-4">
+    <div className="deduced-information rounded-xl bg-green-100">
+      <div className="max-w-7xl w-full space-y-6 p-4">
         <div className="flex justify-around">
           <div>
             <img src="https://turingmachine.info/static/media/ico_bluetriangle.46d683ce64d22d400a27.svg" />

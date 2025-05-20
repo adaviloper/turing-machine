@@ -8,7 +8,7 @@ type Props = {
 
 export default function Criterion({ header, body }: PropsWithChildren<Props>) {
   return (
-    <div className="p-6">
+    <div className="p-4">
       <div>
         {header}
       </div>

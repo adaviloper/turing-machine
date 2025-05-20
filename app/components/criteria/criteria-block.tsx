@@ -10,12 +10,12 @@ export default function CriteriaBlock() {
   };
 
   return (
-    <div className="p-4 rounded w-full">
+    <div className="p-4 w-full">
 	    <Select.Root
         value={criterion}
         onValueChange={selectCriterion}
       >
-		    <Select.Trigger className={"w-full border rounded hover:cursor-pointer"}>
+		    <Select.Trigger className={"w-full border rounded-xl hover:cursor-pointer"}>
 			    <Select.Value />
 		    </Select.Trigger>
 

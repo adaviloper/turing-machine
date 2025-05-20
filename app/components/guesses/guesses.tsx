@@ -2,11 +2,10 @@ import Guess from "./guess";
 
 export function Guesses() {
   return (
-    <div className="rounded flex-1">
-      <h2>Guesses</h2>
-      <div className="max-w-7xl w-full space-y-6 px-4 rounded">
-        <div className="flex justify-around flex-1 rounded border-1">
-          <div className="flex flex-3 justify-around">
+    <div className="rounded-xl flex-1 p-4 bg-blue-100">
+      <div className="max-w-7xl w-full space-y-6 rounded">
+        <div className="flex justify-around flex-1 rounded py-2">
+          <div className="flex flex-3 justify-around -ml-5">
             <div className="text-center">
               <img src="https://turingmachine.info/static/media/ico_bluetriangle.46d683ce64d22d400a27.svg" />
             </div>
@@ -18,7 +17,7 @@ export function Guesses() {
             </div>
           </div>
 
-          <div className="flex flex-6 justify-around">
+          <div className="flex flex-6 justify-around py-1 -mr-4">
             <div className="text-center">A</div>
             <div className="text-center">B</div>
             <div className="text-center">C</div>
@@ -28,12 +27,14 @@ export function Guesses() {
           </div>
         </div>
 
-        <Guess />
-        <Guess />
-        <Guess />
-        <Guess />
-        <Guess />
-        <Guess />
+        {Array(10).fill(0).map((n, i) => (
+          <div
+            key={`guess-${i}`}
+            className={(i % 2 == 0 ? 'bg-gray-100' : '') + ' py-2 my-0'}
+          >
+            <Guess />
+          </div>
+        ))}
       </div>
     </div>
   );
