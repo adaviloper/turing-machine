@@ -15,7 +15,7 @@ export default function CriteriaBlock() {
         value={criterion}
         onValueChange={selectCriterion}
       >
-		    <Select.Trigger className={"w-full border rounded-xl hover:cursor-pointer"}>
+		    <Select.Trigger className={"w-full border border-green-700 text-green-700 rounded-xl hover:cursor-pointer"}>
 			    <Select.Value />
 		    </Select.Trigger>
 

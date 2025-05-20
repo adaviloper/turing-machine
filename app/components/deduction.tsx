@@ -20,7 +20,7 @@ export default function Deduction({ value }: Props) {
 
   return (
     <div
-      className="w-full text-center cursor-pointer"
+      className="w-full text-center text-green-700 cursor-pointer"
       onClick={onClick}
     >
       {evaluation}

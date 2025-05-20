@@ -20,16 +20,16 @@ export default function DropDown({ defaultOption, disabled, onSelectHandler, opt
       onValueChange={onSelectHandler}
       disabled={disabled}
     >
-		  <Select.Trigger className={"w-16 border rounded " + (disabled ? 'border-gray-300 text-gray-300 hover:cursor-not-allowed ' : 'hover:cursor-pointer ')}>
+		  <Select.Trigger className={"w-16 border rounded " + (disabled ? 'border-gray-400 text-gray-400 hover:cursor-not-allowed ' : 'hover:cursor-pointer border-green-700 text-green-700')}>
 			  <Select.Value />
 		  </Select.Trigger>
 
 		  <Select.Portal>
-			  <Select.Content className="bg-white">
+			  <Select.Content className="bg-white p-2 rounded-xl">
 				  <Select.ScrollUpButton />
-				  <Select.Viewport>
+				  <Select.Viewport className="w-full">
 				    {options.map(option => (
-					    <Select.Item value={option.value} className="text-center" key={`option-${option.value}`}>
+					    <Select.Item value={option.value} className="text-center w-full" key={`option-${option.value}`}>
 						    <Select.ItemText>
                   {option.label}
                 </Select.ItemText>
